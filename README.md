@@ -41,8 +41,8 @@ This project predicts whether a patient has diabetes based on the Pima Indians D
 - Interactive frontend built with Streamlit
 - Connects to backend API to fetch predictions
 
-- access directly via [Live Frontend](https://diabetes-prediction-api-frontend.onrender.com)
-
+- access directly via [Live Frontend](https://diabetes-prediction-api-frontend.onrender.com) .(To run it locally, go to the frontend git repo and follow the steps from readme file.)
+- access Streamlit frontend app directly via [https://diabetes-prediction-app-4smzcurnuqvwawcwbmnjhs.streamlit.app](https://diabetes-prediction-app-4smzcurnuqvwawcwbmnjhs.streamlit.app)
 ---
 
 ## Dataset
