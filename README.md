@@ -31,30 +31,17 @@ This project predicts whether a patient has diabetes based on the Pima Indians D
 - FastAPI app: Handles prediction requests
 - Model training code: Train and save the ML model
 - Dockerfile: Containerized backend for deployment
-## Quick Start:
-```bash
-git clone https://github.com/Farhan00000000/Diabetes-Prediction-API-Frontend.git
-cd Diabetes-Prediction-API-Frontend
-# Build Docker container (make sure Dockerfile is here)
-docker build -t diabetes-backend .
-# Run container
-docker run -p 8000:8000 diabetes-backend
-```
-API Documentation: Open [http://localhost:8000/docs](http://localhost:8000/docs) after running locally.
-- **Note: Docker must be installed and running.*
+- To run the backend locally, go to the backend git repo and follow the steps from readme file.
+- API Documentation: Open [http://localhost:8000/docs](http://localhost:8000/docs) after running locally.
+- *Note: Docker must be installed and running.*
 
 ---
 
 # Frontend Details
 - Interactive frontend built with Streamlit
 - Connects to backend API to fetch predictions
-```bash
-git clone https://github.com/Farhan00000000/diabetes-prediction-app.git
-cd frontend
-pip install -r requirements.txt
-streamlit run frontend.py
-```
-Or access directly via [Live Frontend](https://diabetes-prediction-api-frontend.onrender.com)
+
+- access directly via [Live Frontend](https://diabetes-prediction-api-frontend.onrender.com)
 
 ---
 
